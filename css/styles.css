@@ -1,0 +1,170 @@
+body{
+  font-family: "Montserrat-bold";
+  font-size: 40px;
+  text-align: center;
+
+}
+
+/*heading*/
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-bold";
+}
+
+
+p{
+  color: #8f8f8f;
+}
+/*headings*/
+.big-heading{
+  line-height: 1.5;
+  font-size: 5rem;
+  text-align: center;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+/*Title image*/
+.rot{
+  transform: rotate(25deg);
+  margin-top: 20px;
+  position: absolute;
+}
+
+/*navbar*/
+#title{
+  background-color: #ff4c68;
+  color : #fff;
+  text-align: left;
+}
+.navbar-brand{
+  font-family: cursive;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.navbar-nav{
+  font-size: 3rem;
+  color: #fff;
+  font-weight: bold;
+
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+/*download button*/
+.download-button{
+  margin: 5% 5% 5% 0;
+  margin-left: 50px;
+  width:170px;
+}
+.icon{
+  color: #ef8172;
+}
+/*features*/
+.fa-3x:hover{
+  color: #ff4c68;
+}
+#features{
+  background-color: white;
+  z-index: 1;
+  position: relative;
+
+}
+.feature-box{
+  padding: 5%;
+}
+.feature-title{
+  font-weight: bold;
+  font-size: 55px;
+}
+
+/* Testimonials */
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.radio{
+  border-radius: 100%;
+  width:200px;
+  margin: 20px;
+}
+
+/*press*/
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  margin: 20px 30px 50px;
+}
+
+/* pricing */
+#pricing{
+    padding:100px;
+}
+.pricing-title{
+  font-weight: bold;
+  font-size: 55px;v
+}
+
+.btn-block{
+  font-size: 50px;
+}
+.pricing-column{
+  padding : 2% 4%;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/*CTA section*/
+#cta{
+  background-color: #ff4c68;
+  padding-bottom: 200px;
+  padding: 5% 12%;
+  font-family: "Montserrat-black";
+  color: #fff;
+}
+.cta-title{
+  font-weight: bold;
+  font-size: 55px;
+}
+.cta-button{
+  margin-top: 30px;
+}
+/*footersection*/
+#footer{
+  margin-top: 120px;
+  font-size: 20px;
+}
+.rr{
+  padding-left: 25px;
+}
+
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .rot{
+    position: static;
+    transform: rotate(0);
+  }
+}
